@@ -5,6 +5,7 @@ var sum = num1 + num2;
 var sum = sum.toFixed(1);
 // after using toFixed method now it is string, so I need to parseFloat
 sum = parseFloat(sum);
+
 console.log(sum);
 console.log(typeof sum);
 console.log(num1);
