@@ -33,3 +33,16 @@ var cities = ["tallinn", "helsinki", "stockholm", "riga"];
 var element = cities.pop();
 // console.log(cities);
 // console.log(element);
+
+// shift() and unshift()
+
+var countries = ["estonia", "finland", "sweden", "latvia"];
+// console.log(countries);
+countries.unshift("canada");
+// console.log(countries)
+
+var distances = [20, 30, 40, 50, 60];
+console.log(distances);
+var specific = distances.shift();
+console.log(specific);
+console.log(distances);
